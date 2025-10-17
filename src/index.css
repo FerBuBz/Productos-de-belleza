@@ -29,3 +29,15 @@ html {
   @apply border border-brand-500 text-brand-600 hover:bg-brand-50;
 }
 
+/* Floating buddy animations */
+@keyframes sb-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+@keyframes sb-pop {
+  0% { transform: scale(.92); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.animate-bob { animation: sb-bob 2.2s ease-in-out infinite; }
+.animate-pop { animation: sb-pop .18s ease-out both; }
+.sb-shadow { box-shadow: 0 10px 25px -10px rgba(236,72,153,.5), 0 6px 12px -8px rgba(0,0,0,.2); }

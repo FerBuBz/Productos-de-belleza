@@ -1,4 +1,4 @@
-export const CONFIG = {
+﻿export const CONFIG = {
   businessName: 'Belleza Nails Spa (posible nombre)',
   phoneE164: '573194503745',
   instagram: 'https://instagram.com/tu_instagram',

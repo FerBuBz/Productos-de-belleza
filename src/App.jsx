@@ -4,6 +4,7 @@ import Products from './components/Products'
 import Gallery from './components/Gallery'
 import Services from './components/Services'
 import Footer from './components/Footer'
+import SuggestionBuddy from './components/SuggestionBuddy'
 
 export default function App() {
   return (
@@ -16,7 +17,7 @@ export default function App() {
         <Services />
       </main>
       <Footer />
+      <SuggestionBuddy />
     </div>
   )
 }
-
