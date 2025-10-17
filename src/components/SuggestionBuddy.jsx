@@ -72,7 +72,7 @@ export default function SuggestionBuddy() {
           </div>
           <p className="text-sm text-gray-600 mb-3">Cuéntanos cómo mejorar. Enviamos tu idea por WhatsApp.</p>
           <div className="flex flex-wrap gap-2 mb-3">
-            {['Agregar servicio','Mejorar precios','Cambiar horario','Otra idea'].map((t) => (
+            {['Agregar servicio','Cambiar horario','Otra idea'].map((t) => (
               <button key={t} onClick={() => setText((v) => (v? `${v} · ${t}` : t))} className="px-3 py-1.5 rounded-full text-sm bg-pink-50 text-pink-700 hover:bg-pink-100">
                 {t}
               </button>
@@ -99,4 +99,3 @@ export default function SuggestionBuddy() {
     </div>
   )
 }
-
