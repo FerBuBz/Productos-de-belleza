@@ -11,7 +11,7 @@ export default function Hero() {
               Uñas hermosas, cuidado profesional
             </h1>
             <p className="mt-4 text-gray-600">
-              Manicure, pedicure, gel y acrílicas con un enfoque en higiene, detalle y estilo. Agenda tu cita hoy mismo.
+              Servicios de uñas con enfoque en higiene, detalle y estilo. Gel y acrílicas que duran más y se ven increíbles.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href={waLink('Hola, quiero agendar una cita ✨')} className="btn btn-primary">
@@ -25,7 +25,7 @@ export default function Hero() {
             <img
               className="relative w-full h-auto rounded-3xl shadow-lg"
               src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=1200&auto=format&fit=crop"
-              alt="Manicure profesional"
+              alt="Servicio profesional de uñas"
               loading="lazy"
             />
           </div>
