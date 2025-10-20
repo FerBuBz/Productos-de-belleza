@@ -1,7 +1,8 @@
 export const services = [
-  { id: 's2', name: 'Manicure + Gel', price: 45000 },
-  { id: 's3', name: 'Uñas Acrílicas (corto)', price: 80000 },
-  { id: 's4', name: 'Retoque Acrílicas', price: 60000 },
+  { id: 's2', name: 'Uñas acrilicas', price: 90000 },
+  { id: 's3', name: 'Retoque uñas acrilicas', price: 80000 },
+  { id: 's4', name: 'Semi permanente con base ruber', price: 70000 },
+  { id: 's4', name: '*Retoque* semi permanete con base', price: 65000 },
 ]
 
 export const formatCOP = (value) =>
