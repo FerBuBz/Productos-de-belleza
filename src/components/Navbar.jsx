@@ -10,7 +10,7 @@ export default function Navbar() {
         </a>
         <div className="hidden md:flex items-center gap-6 text-sm font-medium">
           <a href="#productos" className="hover:text-brand-600">Productos</a>
-          <a href="#galeria" className="hover:text-brand-600">Galer\u00eda</a>
+          <a href="#galeria" className="hover:text-brand-600">Galería</a>
           <a href="#servicios" className="hover:text-brand-600">Servicios</a>
           <a href="#contacto" className="hover:text-brand-600">Contacto</a>
           <a href={waLink()} className="btn btn-primary">Agendar</a>
